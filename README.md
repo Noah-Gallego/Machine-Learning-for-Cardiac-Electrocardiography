@@ -25,9 +25,7 @@ The challenge presented by LLNL was to:
 2. Reconstruct cardiac activation maps from simulated intracardiac voltage readings.
 3. Use **sequence-to-sequence models** to predict the transmembrane potential across time.
 
-<p align="center">
-    <img src="figures/rotating_hearts.gif" width=800/>
-</p>
+[![Description](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)
 
 ## My Contributions
 ### Major Contributions:
@@ -48,22 +46,22 @@ For new users, this repository includes tutorials and notebooks to help you get 
 ### Task 1: Heartbeat Classification
 Get familiar with ECG data using the [ECG Heartbeat Categorization Dataset](https://www.kaggle.com/datasets/shayanfazeli/heartbeat). The goal is to perform binary classification for **healthy** vs. **irregular** heartbeats.
 
-Start by reading the notebook: [task_1_getting_started.ipynb](./notebooks/task_1_getting_started.ipynb)
+Start by reading the notebook: [task_1_getting_started.ipynb](./task1ArrhythmiaClassifier.ipynb)
 
 ### Task 2: Irregular Heartbeat Classification
 This task involves performing **multiclass classification** to diagnose irregular heartbeats from the same dataset.
 
-Start by reading the notebook: [task_2_getting_started.ipynb](./notebooks/task_2_getting_started.ipynb)
+Start by reading the notebook: [task_2_getting_started.ipynb](./task2ArrhythmiaMultiClassifier.ipynb)
 
 ### Task 3: Activation Map Reconstruction from ECG
 For this task, I developed **sequence-to-vector prediction models** to reconstruct activation maps using the [Simulated Intracardiac Voltage Recordings and ECG Signals Dataset](https://library.ucsd.edu/dc/object/bb29449106). This task involves transforming an ECG sequence (12x500) into a spatial activation map (75x1).
 
-Start by reading the notebook: [task_3_getting_started.ipynb](./notebooks/task_3_getting_started.ipynb)
+Start by reading the notebook: [task_3_getting_started.ipynb](./task3ActivationTimePredictor.ipynb)
 
 ### Task 4: Transmembrane Potential Reconstruction from ECG
 The most complex task focuses on **sequence-to-sequence** prediction using the same dataset. The goal is to predict transmembrane potentials over time (12x500 → 75x500) using deep neural networks.
 
-Start by reading the notebook: [task_4_getting_started.ipynb](./notebooks/task_4_getting_started.ipynb)
+Start by reading the notebook: [task_4_getting_started.ipynb](./taskFourCompleteNoah.ipynb)
 
 ## Resources
 ### Datasets and Notebooks:
