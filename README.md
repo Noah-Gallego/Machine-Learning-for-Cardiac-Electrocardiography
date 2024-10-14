@@ -9,6 +9,8 @@ This repository contains the code and notebooks from my **Data Science Challenge
 
 My contributions expanded upon the initial framework by implementing advanced machine learning models for ECG signal analysis, including **sequence-to-sequence prediction** for transmembrane potentials and **activation map reconstruction** using **neural networks**. I utilized cutting-edge tools such as **PyTorch** to enhance the models’ performance and created new pipelines for data pre-processing and model evaluation.
 
+[![Description](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)
+
 In particular, this repository includes:
 - **Custom neural network architectures** for cardiac data.
 - **Optimization techniques** tailored for high-dimensional ECG signals.
@@ -24,8 +26,6 @@ The challenge presented by LLNL was to:
 1. Classify heartbeats from ECG data.
 2. Reconstruct cardiac activation maps from simulated intracardiac voltage readings.
 3. Use **sequence-to-sequence models** to predict the transmembrane potential across time.
-
-[![Description](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)](https://github.com/landajuela/cardiac_challenge/blob/main/figures/rotating_hearts.gif)
 
 ## My Contributions
 ### Major Contributions:
